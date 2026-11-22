@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"); 
+ 
+ * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background: #202436;
+            color: white;
+        }
+
+        h1 {
+            color: #a78bfa;
+            text-align: center;
+        }
+
+        p {
+            color: #aeb5c8;
+            text-align: center;
+        }
+
+        body > div {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        input {
+            padding: 12px;
+            width: 250px;
+            max-width: 100%;
+            border: 1px solid #505775;
+            border-radius: 10px;
+            background: #30364c;
+            color: white;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #9b87f5;
+        }
+
+        button {
+            padding: 10px 15px;
+            margin: 4px;
+            border: none;
+            border-radius: 9px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+        }
+
+        button:hover {
+            opacity: 0.8;
+            transform: translateY(-2px);
+        }
+
+        #addBtn {
+            background: #7968e8;
+            color: white;
+        }
+
+        #alldelete {
+            background: #e05268;
+            color: white;
+        }
+
+        #list {
+            margin: 30px auto;
+            padding: 0;
+            max-width: 500px;
+        }
+
+        li {
+            list-style: none;
+            background: #30364c;
+            border: 1px solid #454d68;
+            border-radius: 12px;
+            padding: 12px;
+            margin: 12px 0;
+            width: fit-content;
+            max-width: 100%;
+        }
+
+        li div {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+
+        li span {
+            color: #f1f2f8;
+            margin-right: 8px;
+        }
+
+        .done {
+            color: #4ade80;
+            text-decoration: line-through;
+        }
+
+        .dl {
+            background: #e05268;
+            color: white;
+        }
+
+        .ed {
+            background: #e9ad50;
+            color: #292929;
+        }
+
+        li button:last-child {
+            background: #36a878;
+            color: white;
+        }
